@@ -1,1 +1,71 @@
+* {
+    margin: 0;
+    background-color:#0e1523;
+    font-family: 'Nunito', sans-serif;
+    color:#F0F0F0;
+}
 
+nav {
+    background-color: #0d1320;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 15px;
+    background-color: #0d1320;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin: 30px;
+    padding: 50px;
+    display: flex;
+}
+
+.maindescription {
+    font-size: 70px;
+    padding:  0 30px 0 80px;
+    margin-bottom: 30px;
+}
+
+.pdescription {
+    font-size: 35px;
+    padding: 0 30px 0 80px;
+    margin-bottom: 40px;
+}
+
+.imaginephone {
+    padding: 0 80px 0 50px;
+}
+
+.mainbutton {
+    padding:  0 30px 0 80px;
+}
+
+
+.button {
+    background-color: #E3BD68;
+    color: #0e1523;
+    border-radius: 6px;
+    border: none;
+    height: 50px;
+    width: 170px;
+}
