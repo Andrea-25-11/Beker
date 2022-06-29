@@ -1,4 +1,45 @@
-.nombre
-    {
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+* {
+    margin: 20px 10px 20px 10px;
+    background-color:#E3BD68;
+    font-family: 'Rubik', sans-serif;
+    color:#0e1523;
     }
+h1
+{
+    text-align: center;
+    font-size:80px;
+}
+
+.table_team{
+    width: 1800px;
+    height: 700px;
+    padding: 30px 30px 30px 30px;
+    border-collapse:collapse;
+    border-spacing: 30px 10px;
+}
+.image
+{
+    }
+.names
+{
+    font-size: 35px;
+}
+.resume
+{
+    font-size: 20px;
+    text-align:left;
+}
+.contact
+{
+    font-size: 35px;
+}
+.contact_links
+{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+ul 
+{
+list-style-type: none;
+}
