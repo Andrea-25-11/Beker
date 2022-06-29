@@ -1,8 +1,7 @@
 * {
     margin: 0;
-    background-color:#0e1523;
     font-family: 'Nunito', sans-serif;
-    color:#F0F0F0;
+    color:#E4E4E4;
 }
 
 nav {
@@ -34,14 +33,15 @@ a {
     text-decoration: none;
 }
 
-main {
-    margin: 30px;
+.sectionmain {
+    margin: 0;
     padding: 50px;
     display: flex;
+    background-color: #0e1523;
 }
 
 .maindescription {
-    font-size: 70px;
+    font-size: 75px;
     padding:  0 30px 0 80px;
     margin-bottom: 30px;
 }
@@ -68,4 +68,33 @@ main {
     border: none;
     height: 50px;
     width: 170px;
+}
+
+.aboutus {
+    margin: 0;
+    background-color: #E4E4E4;
+}
+
+.aboutustitle {
+    color: #0e1523;
+    padding: 30px;
+    text-align: center;
+}
+
+.aboutusparagraph {
+    color: #0e1523;
+    padding: 0 80px 30px 80px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#team {
+    margin: 0;
+    background-color: #0e1523;
+}
+
+.titleteam {
+    color: #E4E4E4;
+    padding: 30px;
+    text-align: center;
 }
